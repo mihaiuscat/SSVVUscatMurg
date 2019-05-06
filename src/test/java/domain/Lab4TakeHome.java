@@ -45,6 +45,7 @@ public class Lab4TakeHome {
 
     @Test
     public void testIncremental() {
+        System.out.println("Running tests");
         this.addValidStudent();
         assert studentRepository.findOne("10").equals(sampleStudent);
 
